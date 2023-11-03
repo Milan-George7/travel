@@ -1,0 +1,167 @@
+
+
+.head1{
+    text-align: center;
+}
+
+
+.landing{
+    background-image: url(https://wallpaperaccess.com/full/42545.jpg);
+    
+}
+
+/* h5,p{
+    text-align: center;
+} */
+
+.card-body{
+    text-align: center;
+  
+}
+
+.card{
+    border-radius: 10px;
+}
+
+.card:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+
+#collage{
+    width: 450px;
+    height: 350px;
+}
+
+
+#youtube{
+    border-radius: 5px;
+    width: 650px;
+    height: 450px;
+}
+
+.cards{
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+    overflow:hidden;
+    /* border: 8px solid ; */
+    position: relative;
+    
+}
+
+
+.cards-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.cards-body{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+
+.cards:hover .cards-body{
+    right:0;
+}
+
+.cards-title{
+     text-transform: uppercase;
+     font-size: 50px;
+     font-weight: 500;
+}
+
+
+.cards-info{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 40px 0;
+    font-weight: 400;
+}
+
+
+.cards-button{
+    color: #1f3d47;
+    background: #8fabba;
+    width: 120px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.cards-top{
+    width: 65%;
+    border-radius: 50%;
+    margin: 0 auto;
+    
+}
+
+
+
+.list{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.list-link{
+    text-decoration: none;
+    color: black
+}
+
+
+.logo-collection{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+   margin-left: 15px;
+   font-size: 30px;
+   
+   
+}
+
+.icon a{
+    color: black;
+}
+
+
+.icon a:hover{
+    color: orange;
+
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
